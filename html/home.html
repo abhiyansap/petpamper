@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="script.js"></script>
+    <title>Your Pet Grooming</title>
+</head>
+<body>
+
+<!-- Navbar -->
+<div id="navbar">
+    <div class="logo">Your Logo</div>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Our Services</a>
+        <a href="#">Blogs</a>
+        <a href="#">About</a>
+    </div>
+    <div class="profile">
+        <a href="#">
+            <img src="profile-icon.png" alt="Profile Icon">
+            Profile
+        </a>
+    </div>
+    <div class="toggle-button" onclick="toggleNavbar()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</div>
+
+<!-- Content Goes Here -->
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+    function toggleNavbar() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('show');
+}
+</script>
