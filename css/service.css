@@ -1,0 +1,24 @@
+#service-content {
+    margin: 0;
+}
+
+.service-intro {
+    background-color: #F5F7F8;
+}
+
+.service-intro > div { 
+    padding: 1rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.service-intro > div > h1 {
+    margin: 0;
+    color: #4CAF50;
+}
+
+.service-intro > div > p{
+    font-size: large;
+    color: gray;
+    line-height: 27px;
+}
