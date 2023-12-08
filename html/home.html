@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
-    <script defer src="../js/navbar.js"></script>
+    <script defer src="../js/home.js"></script>
     <title>Your Pet Grooming</title>
   </head>
   <body>
@@ -20,11 +20,13 @@
         <a href="#">Home</a>
         <a href="#">Our Services</a>
         <a href="#">Blogs</a>
+        <a href="#">Contact</a>
         <a href="#">About</a>
       </div>
       <a class="profile">
         <img src="../img/profile.png" />
         <span> Profile </span>
+        </a>
       </div>
       <div class="toggle-button" onclick="toggleNavbar()">
         <span class="bar"></span>
@@ -32,11 +34,92 @@
         <span class="bar"></span>
       </div>
     </div>
-
+    <div id="home-content">
+        <div class="home-intro">
+            <div>
+                    <div class="home-intro-img">
+                        <img src="../img/puppies.jpg" alt="Staff trimming dog's fur"/>
+                    </div>
+                    <div class="home-intro-text">
+                        <h1>Welcome to PetPamper!</h1>
+                        <p>
+                            Welcome to PetPamper, where pet grooming meets convenience at your doorstep. 
+                            Our mobile services bring the salon experience directly to your home. Our 
+                            dedicated team ensures your beloved pets receive top-notch care in the comfort 
+                            of their familiar surroundings. From soothing baths to stylish haircuts, we 
+                            redefine pet grooming with personalized, stress-free experiences.
+                        </p>
+                        <a href="./services.html">Our Services</a>
+                    </div>
+            </div>
+        </div>
+        <div id="testimonials">
+            <div>
+                <h1>
+                    Satisfied Customers!
+                </h1>
+                <div class="testimonial" id="testimonial1">
+                    <div class="testimonial-img">
+                        <img src="../img/customer/customer1.jpg" alt="Customer 1">
+                    </div>
+                    <div class="testimonial-text">
+                        <blockquote>
+                            "The grooming services provided by Your Pet Grooming have truly transformed my dog's 
+                            appearance. The staff is professional and caring. Highly recommended!"
+                        </blockquote>
+                    </div>
+                    <p class="customer-name">John Smith</p>
+                </div>
+                <div class="testimonial" id="testimonial2">
+                    <div class="testimonial-img">
+                        <img src="../img/customer/customer2.jpg" alt="Customer 2">
+                    </div>
+                    <div class="testimonial-text">
+                        <blockquote>
+                            "Exceptional service! Your groomers handled my two dogs with care and expertise. 
+                            The mobile grooming option is fantastic for busy pet owners like me"
+                        </blockquote>
+                    </div>
+                    <p class="customer-name">Emma smith</p>
+                </div>
+                <div class="testimonial" id="testimonial2">
+                    <div class="testimonial-img">
+                        <img src="../img/customer/customer4.jpg" alt="Customer 2">
+                    </div>
+                    <div class="testimonial-text">
+                        <blockquote>
+                            "As a cat owner, I appreciate the stress-free grooming experience provided 
+                            by Your Pet Grooming. The groomers were gentle and efficient. Thank you for your excellent service!"
+                        </blockquote>
+                    </div>
+                    <p class="customer-name">Olivia White</p>
+                </div>
+            </div>
+            <!-- Add more testimonials as needed -->
+        </div>
+        <div id="home-contact">
+            <div>
+                <div class="home-contact-header">
+                    <img src="../img/email-logo.png">
+                <h1>
+                    Contact Us
+                </h1>
+                </div>
+                <form action="#" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+            
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+            
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
     <!-- Content Goes Here -->
   </body>
 </html>
-
-<script type="text/javascript">
-  
-</script>
