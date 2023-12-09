@@ -1,0 +1,60 @@
+#home-blogs {
+    width: 70%;
+    margin: 0 auto
+}
+
+#home-blogs > h1 {
+    color: #30ab34
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.blog-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+}
+
+.blog-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 15px;
+}
+
+.blog-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.blog-excerpt {
+    font-size: 1rem;
+    color: #555;
+}
+
+.read-more {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.read-more a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.read-more a:hover {
+    color: #207dbb;
+}

@@ -1,12 +1,7 @@
-const profileLink = `<a href="#" class="mb-profile">
-                        <img src="../img/profile2.png" />
-                        <span href="#"> Profile </span>
-                        </a>`;
 
 function toggleNavbar() {
   const navLinks = document.querySelector(".nav-links");
   const profile = document.querySelector(".profile")
-  navLinks.innerHTML += profileLink;
   navLinks.classList.toggle("show")
   profile.classList.toggle("hide")
 }
